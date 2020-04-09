@@ -38,10 +38,12 @@ public class MainThread {
             }catch (Exception e){
                 System.out.println("Error!!");
                 e.printStackTrace();
+                break;
             }
 
         }
     }
+
 
     public static void createStudent(){
         System.out.println("Enter Information Student");
